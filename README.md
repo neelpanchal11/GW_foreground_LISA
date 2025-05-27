@@ -21,7 +21,7 @@
 | NumPy / Pandas / AstroPy | Data wrangling & units |
 | Matplotlib / Seaborn | Publication‑quality plots |
 
-## Galaxy data can be found here on this [link] (https://mega.nz/folder/VBBFVKAD#u5vlzDw9xh3fo9aKCgc0vg)
+> ## Galaxy data can be found here on this [link](https://mega.nz/folder/VBBFVKAD#u5vlzDw9xh3fo9aKCgc0vg)
 
 ## Quick demo  *(no SLURM, no Docker)*
 
