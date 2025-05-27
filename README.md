@@ -9,7 +9,7 @@
 | **1. Population** | `foreground/generation.py` | Uses [**Cogsworth**](https://cogsworth.readthedocs.io/en/latest/index.html) to birth & evolve WD binaries (COSMIC backend). |
 | **2. Extraction** | `foreground/extraction.py` | Saves COSMIC BPP + Galactic XYZ to Parquet for each batch. |
 | **3. Merging** | `foreground/merging.py` | Concatenates all batch Parquets into one galaxy file. |
-| **4. Binning** | `foreground/binning.py` | Computes SNR, masks resolved sources, log‑bins unresolved PSD. |
+| **4. Binning** | `foreground/binning.py` | Computes SNR, masks resolved sources, and logs unresolved PSD. |
 | **5. HPC** | `scripts/Galaxy.slurm` | Quest array job → 200 batches in parallel(Can be changed as per user). |
 
 > **Dependencies**
@@ -60,7 +60,7 @@ final_kstar2 = [10],
 Run the notebook to reproduce the thesis figures:
 
 ```bash
-Github - Cogs
+gw_lisa_confusion.ipynb
 ```
 
 ## 🛰️ Quest HPC
